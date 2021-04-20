@@ -17,7 +17,7 @@ class Premake5 < Formula
       system "./premake5", "gmake"
     end
 
-    system "make", "-C", "build/gmake.macosx"
+    system "make", "-C", "build/gmake2.macosx"
     bin.install "bin/release/premake5"
   end
 
